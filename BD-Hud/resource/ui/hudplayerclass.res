@@ -216,7 +216,7 @@
 				"angles_z"		"0"
 				"origin_x"		"175"
 				"origin_y"		"-5"
-				"origin_z"		"-90"
+				"origin_z"		"-55"
 				"origin_z_minmode"	"-50"
 			}
 			"Spy"
