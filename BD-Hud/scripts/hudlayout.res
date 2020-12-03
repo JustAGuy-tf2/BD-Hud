@@ -44,10 +44,8 @@
 		"tall"	"160"
 		
 		"blue_active_xpos"			"16"
-		"blue_active_xpos_minmode"	"55"
 	
 		"red_active_xpos"			"106"
-		"red_active_xpos_minmode"	"105"
 	}	
 
 	HudItemEffectMeter
@@ -234,7 +232,7 @@
 		"visible" 	"0"
 		"enabled" 	"1"
 		"xpos"		"c-126"
-		"ypos"		"285"
+		"ypos"		"280"
 		"wide"	 	"252"
 		"tall"	 	"35"
 		"tall_minmode"	 	"28"
@@ -271,7 +269,7 @@
 		"visible" 	"0"
 		"enabled" 	"1"
 		"xpos"		"c-126"
-		"ypos"		"335"
+		"ypos"		"310"
 		"wide"	 	"252"
 		"tall"	 	"35"
 		"tall_minmode"	 	"28"
@@ -467,11 +465,11 @@
 		"wide"	 "628"
 		"tall"	 "468"
 
-		"MaxDeathNotices" "4"
-		"IconScale"	  "0.35"
-		"LineHeight"	  "16"
-		"LineSpacing"	  "4"
-		"CornerRadius"	  "3"
+		"MaxDeathNotices" "6"
+		"IconScale"	  "0.30"
+		"LineHeight"	  "12"
+		"LineSpacing"	  "2"
+		"CornerRadius"	  "0"
 		"RightJustify"	  "1"	// If 1, draw notices from the right
 		
 		"TextFont"		"Default"
@@ -481,10 +479,8 @@
 		"IconColor"		"HudWhite"
 		"LocalPlayerColor"	"HUDBlack"
 
-		"BaseBackgroundColor"	"46 43 42 220"		[$WIN32]
-		"LocalBackgroundColor"	"245 229 196 200"	[$WIN32]
-		"BaseBackgroundColor"	"32 32 32 255"		[$X360]
-		"LocalBackgroundColor"	"0 0 0 255"		[$X360]
+		"BaseBackgroundColor"	"46 43 42 180"		[$WIN32]
+		"LocalBackgroundColor"	"245 229 196 160"	[$WIN32]
 	}
 
 	HudVehicle
@@ -949,11 +945,10 @@
 		"visible" 		"1"
 		"enabled" 		"1"
 		"xpos"			"10"	[$WIN32]
-		"xpos"			"42"	[$X360]
 		"ypos"			"275"
 		"wide"	 		"320"
 		"tall"	 		"120"
-		"PaintBackgroundType"	"2"
+		"PaintBackgroundType"	"0"
 	}
 	
 	"HudMenuEngyBuild"
@@ -962,9 +957,9 @@
 		"visible" 		"1"
 		"enabled" 		"1"
 		"xpos"			"c-225"
-		"ypos"			"c-55"
+		"ypos"			"c-51"
 		"wide"			"450"
-		"tall"			"195"
+		"tall"			"200"
 		"PaintBackgroundType"	"0"
 	}
 	
@@ -974,7 +969,7 @@
 		"visible" 		"1"
 		"enabled" 		"1"
 		"xpos"			"c-225"
-		"ypos"			"c-59"
+		"ypos"			"c-55"
 		"wide"			"450"
 		"tall"			"200"
 		"PaintBackgroundType"	"0"
@@ -986,7 +981,7 @@
 		"visible" 		"1"
 		"enabled" 		"1"
 		"xpos"			"c-125"
-		"ypos"			"c-55"
+		"ypos"			"c-65"
 		"wide"			"250"
 		"tall"			"195"
 		"PaintBackgroundType"	"0"
@@ -998,9 +993,7 @@
 		"visible" 		"1"
 		"enabled" 		"1"
 		"xpos"			"c-235"
-		"ypos"			"c-52"
-		"ypos_hidef"	"c-42"
-		"ypos_lodef"	"c-42"
+		"ypos"			"c-62"
 		"wide"			"470"
 		"tall"			"200"	[$WIN32]
 		"tall"			"180"	[$X360]
