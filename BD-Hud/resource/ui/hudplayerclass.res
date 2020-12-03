@@ -20,8 +20,8 @@
 		"xpos"			"15"	[$WIN32]
 		"ypos"			"r54"	[$WIN32]
 		"zpos"			"2"
-		"wide"			"37"
-		"tall"			"37"
+		"wide"			"40"
+		"tall"			"40"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/class_scoutred"

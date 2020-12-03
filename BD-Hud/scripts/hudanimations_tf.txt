@@ -206,7 +206,7 @@ event KeyHintMessageHide
 //Health Bonus Pulse
 event HudHealthBonusPulse
 {
-	Animate	PlayerStatusHealthBonusImage 	Alpha		"255"		Linear 0.0 0.2
+	Animate	PlayerStatusHealthBonusImage 	Alpha		"200"		Linear 0.0 0.2
 	Animate	PlayerStatusHealthBonusImage 	Alpha		"0"			Linear 0.2 0.4
 
 	RunEvent HudHealthBonusPulseLoop	0.4
@@ -230,7 +230,7 @@ event HudHealthBonusPulseStop
 //Health Dying Pulse
 event HudHealthDyingPulse
 {
-	Animate	PlayerStatusHealthBonusImage 	Alpha		"255"		Linear 0.0 0.075
+	Animate	PlayerStatusHealthBonusImage 	Alpha		"200"		Linear 0.0 0.075
 
 	Animate	PlayerStatusHealthBonusImage 	Alpha		"0"			Linear 0.125 0.075
 	
@@ -1431,25 +1431,6 @@ event QuestItem_Highlight_Off_Halloween
 {
 	Animate GlowImage Alpha 0 Bias 0.8 0 0.2
 }
-
-//--------------------------------------------------------------------------
-event CompetitiveGame_LowerChatWindow
-{
-	Animate HudChat ypos r140 Accel 0 0
-}
-
-event CompetitiveGame_RestoreChatWindow
-{
-	Animate HudChat ypos 275 Accel 0 0
-}
-
-event HudTournament_MoveChatWindow
-{
-	RunEvent CompetitiveGame_LowerChatWindow 0
-	RunEvent CompetitiveGame_RestoreChatWindow 10
-}
-
-//--------------------------------------------------------------------------
 
 event HudTournament_MoveTimerDown
 {

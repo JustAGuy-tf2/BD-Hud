@@ -29,7 +29,7 @@
 		"tall"			"25"
 		"visible"		"1"
 		"enabled"		"1"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"		
 	}		
 	"PlayerStatusHealthImageBG"
 	{
@@ -43,7 +43,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/health_bg"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"			
 	}	
 	"PlayerStatusHealthBonusImage"
 	{
@@ -57,7 +57,7 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			"../hud/health_over_bg"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 	}
 	"PlayerStatusHealthValue"
 	{
