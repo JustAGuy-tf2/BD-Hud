@@ -93,10 +93,8 @@
 	{	
 		"ControlName"		"Label"
 		"fieldName"		"TargetNameLabel"
-		"font"			"HudFontSmall"
-		"font_minmode"	"TFFontLarge"
-		"xpos"			"8"
-		"xpos_minmode"	"30"
+		"font"	"TFFontLarge"
+		"xpos"			"30"
 		"ypos"			"5"
 		"zpos"			"1"
 		"wide"			"640"
@@ -114,8 +112,7 @@
 	{	
 		"ControlName"		"Label"
 		"fieldName"		"TargetNameLabelS"
-		"font"			"HudFontSmall"
-		"font_minmode"	"TFFontLarge"
+		"font"	"TFFontLarge"
 		"xpos"			"44"
 		"ypos"			"6"
 		"zpos"			"1"
@@ -135,12 +132,9 @@
 	{	
 		"ControlName"		"Label"
 		"fieldName"		"TargetDataLabel"
-		"font"			"TFFontLarge"
-		"font_minmode"	"DefaultVerySmall"
+		"font"	"DefaultVerySmall"
 		"xpos"			"8"
-		"xpos_minmode"	"30"
 		"ypos"			"17"	[$WIN32]
-		"ypos_minmode"	"12"	[$WIN32]
 		"ypos"			"22"	[$X360]
 		"ypos_hidef"		"25"	[$X360]
 		"zpos"			"1"
@@ -160,9 +154,7 @@
 		"ControlName"		"EditablePanel"
 		"fieldName"		"SpectatorGUIHealth"
 		"xpos"			"3"
-		"xpos_minmode"	"0"
 		"ypos"			"2"
-		"ypos_minmode"	"0"
 		"wide"			"32"
 		"tall"			"32"
 		"visible"		"0"
@@ -179,9 +171,7 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"AmmoIcon"
 		"xpos"			"40"
-		"xpos_minmode"	"38"
 		"ypos"			"20"
-		"ypos_minmode"	"16"
 		"zpos"			"12"
 		"wide"			"8"
 		"tall"			"8"
@@ -196,9 +186,7 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"KillStreakIcon"
 		"xpos"			"10"
-		"xpos_minmode"	"30"
 		"ypos"			"20"
-		"ypos_minmode"	"16"
 		"zpos"			"12"
 		"wide"			"8"
 		"tall"			"8"
@@ -241,7 +229,7 @@
 			"ControlName"	"CIconPanel"
 			"fieldName"		"MoveableIcon"
 			"xpos"			"5"
-			"ypos"			"7"
+			"ypos"			"10"
 			"zpos"			"11"
 			"wide"			"14"
 			"tall"			"14"
@@ -293,7 +281,6 @@
 		"ControlName"	"CAvatarImagePanel"
 		"fieldName"		"AvatarImage"
 		"xpos"			"6"
-		"xpos_minmode"	"6"
 		"ypos"			"6"	[$WIN32]
 		"ypos"			"0"	[$X360]
 		"zpos"			"99"

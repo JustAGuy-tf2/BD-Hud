@@ -18,8 +18,8 @@
 		"enabled" "1"
 		"xpos"	"r300"	[$WIN32]
 		"ypos"	"r155"	[$WIN32]
-		"wide"	"94"
-		"tall"	"45"
+		"wide"	"200"
+		"tall"	"50"
 	}
 	
 	HudObjectiveStatus
@@ -82,7 +82,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"r262"	[$WIN32]
-		"ypos"			"r116"	[$WIN32]
+		"ypos"			"r103"	[$WIN32]
 		"zpos"			"1"			// draw in front of ammo
 		"wide"			"50"
 		"tall"			"8"
@@ -96,10 +96,9 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"r262"	[$WIN32]
-		"ypos"			"r116"	[$WIN32]
+		"ypos"			"r103"	[$WIN32]
 		"zpos"			"1"			// draw in front of ammo
-		"wide"			"60"
-		"wide_minmode"	"50"
+		"wide"			"50"
 		"tall"			"8"
 		"MeterFG"		"White"
 		"MeterBG"		"Gray"
@@ -235,7 +234,6 @@
 		"ypos"		"280"
 		"wide"	 	"252"
 		"tall"	 	"35"
-		"tall_minmode"	 	"28"
 		"priority"	"40"
 		"priority_lodef"	"5"
 
@@ -252,10 +250,9 @@
 		"visible" 	"0"
 		"enabled" 	"1"
 		"xpos"		"c-126"
-		"ypos"		"250"
+		"ypos"		"345"
 		"wide"	 	"252"
 		"tall"	 	"35"
-		"tall_minmode"	 	"28"
 		"priority"	"40"
 		"priority_lodef" "35"
 		
@@ -269,10 +266,9 @@
 		"visible" 	"0"
 		"enabled" 	"1"
 		"xpos"		"c-126"
-		"ypos"		"310"
+		"ypos"		"316"
 		"wide"	 	"252"
 		"tall"	 	"35"
-		"tall_minmode"	 	"28"
 		"priority"	"35"
 
 		if_vr
@@ -289,7 +285,7 @@
 		"visible"	"1"
 		"enabled"	"1"
 		"xpos"		"0"	[$WIN32]
-		"ypos"		"0"	[$WIN32]
+		"ypos"		"92"	[$WIN32]
 		"xpos"		"32"	[$X360]
 		"ypos"		"16"	[$X360]		
 		"wide"		"640"
@@ -303,10 +299,10 @@
 		"fieldName" "BuildingStatus_Engineer"
 		"visible"	"1"
 		"enabled"	"1"
-		"xpos"		"0"
+		"xpos"		"-13"
 		"xpos_hidef"		"32"
 		"xpos_lodef"		"40"
-		"ypos"		"0"
+		"ypos"		"90"
 		"ypos_hidef"		"16"
 		"ypos_lodef"		"25"
 		"wide"		"640"
@@ -547,7 +543,7 @@
 		"zpos" "1"
 
 		"TextFont"				"Default"
-		"ItemFont"				"Default"
+		"ItemFont"				"DefaultSmall"
 		"ItemFontPulsing"		"Default"
 	}
 
@@ -560,7 +556,7 @@
 		"tall"	 "480"
 		"zpos" 	"2"
 		"xpos"			"130"
-		"ypos"			"r126"
+		"ypos"			"r96"
 		
 		"TextFont"				"Default"
 		"ItemFont"				"Default"
@@ -737,38 +733,19 @@
 		"text_xpos"			"33"
 	}
 
-	HudHintDisplay
+	"HudHintDisplay"
 	{
-		"fieldName"				"HudHintDisplay"
-		"visible"				"0"
-		"enabled"				"1"
-		"xpos"					"c-240"
-		"ypos"					"c60"
-		"wide"					"480"
-		"tall"					"100"
-		"HintSize"				"1"
-		"text_xpos"				"8"
-		"text_ypos"				"8"
-		"center_x"				"0"	// center text horizontally
-		"center_y"				"-1"	// align text on the bottom
+		"ypos"														"c100"
+		"zpos"														"5"
+		"wide"														"480"
+		"tall"														"100"
+		
+		"TextColor"													"255 255 255 255"
 	}	
 
-	HudHintKeyDisplay
+	"HudHintKeyDisplay"
 	{
-		"fieldName"	"HudHintKeyDisplay"
-		"visible"	"0"
-		"enabled" 	"1"
-		"xpos"		"r120"
-		"ypos"		"r340"
-		"wide"		"100"
-		"tall"		"200"
-		"text_xpos"	"8"
-		"text_ypos"	"8"
-		"text_xgap"	"8"
-		"text_ygap"	"8"
-		"TextColor"	"255 170 0 220"
-
-		"PaintBackgroundType"	"2"
+		"TextColor"													"255 255 255 255"
 	}
 	
 	overview
@@ -1008,7 +985,7 @@
 		"xpos"			"r262"	[$WIN32]
 		"ypos"			"r103"	[$WIN32]
 		"wide"			"100"
-		"tall"			"50"
+		"tall"			"70"
 	}	
 
 	HudTeamGoal
@@ -1173,7 +1150,7 @@
 		"fieldName"				"HudArenaVsPanel"		
 		"visible"				"1"
 		"enabled"				"1"
-		"xpos"					"0"
+		"xpos"					"40"
 		"ypos"					"240"
 		"wide"					"f0"
 		"tall"					"240"
@@ -1185,7 +1162,7 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"xpos"					"0"
-		"ypos"					"0"
+		"ypos"					"18"
 		"wide"					"f0"
 		"tall"					"50"
 	}	
@@ -1313,8 +1290,8 @@
 	"CHudVote"
 	{
 		"fieldName"		"CHudVote"
-		"xpos"			"0"			
-		"ypos"			"0"
+		"xpos"			"110"			
+		"ypos"			"-60"
 		"wide"			"640"
 		"tall"			"480"
 		"visible"		"1"
@@ -1328,7 +1305,7 @@
 		"fieldName"		"HudAlert"
 		"visible"		"0"
 		"enable"		"1"
-		"xpos"			"c-160"
+		"xpos"			"c-100"
 		"ypos"			"100"
 		"wide"			"320"
 		"tall"			"150"

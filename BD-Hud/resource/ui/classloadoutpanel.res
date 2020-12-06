@@ -388,6 +388,7 @@
 			
 			"defaultFgColor_override" "46 43 42 255"
 			"armedFgColor_override" "235 226 202 255"
+                "armedBgColor_override" "black"
 			"depressedFgColor_override" "46 43 42 255"
 			
 			"image_drawcolor"	"117 107 94 255"
@@ -608,6 +609,7 @@
 			
 			"defaultFgColor_override" "46 43 42 255"
 			"armedFgColor_override" "235 226 202 255"
+                "armedBgColor_override" "black"
 			"depressedFgColor_override" "46 43 42 255"
 			
 			"image_drawcolor"	"117 107 94 255"
@@ -648,12 +650,11 @@
 		"Command"			"sv_cheats 1; r_skin 0"
 		"bgcolor"					"189 59 60 255"
 		"defaultBgColor_override" 	"189 59 60 255"
-		"armedBgColor_override" 	"169 59 60 255"
+		"armedBgColor_override" 	"149 39 40 255"
 		"depressedBgColor_override" "189 59 60 255"
 		"selectedBgColor_override" 	"189 59 60 255"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		"sound_armed"		"UI/buttonrollover.wav"
 	}
 	"BLU"
 	{
@@ -675,11 +676,10 @@
 		"Command"			"sv_cheats 1; r_skin 1"
 		"bgcolor_override"			"91 122 140 255"
 		"defaultBgColor_override" 	"91 122 140 255"
-		"armedBgColor_override" 	"71 102 120 255"
+		"armedBgColor_override" 	"51 82 100 255"
 		"depressedBgColor_override" "91 122 140 255"
 		"selectedBgColor_override" 	"91 122 140 255"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		"sound_armed"		"UI/buttonrollover.wav"
 	}
 }

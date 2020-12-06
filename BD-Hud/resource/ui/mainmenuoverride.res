@@ -134,7 +134,7 @@
 		"noitem_textcolor"		"117 107 94 255"
 		"PaintBackgroundType"	"2"
 		"paintborder"	"1"
-		"border"		"MainMenuBGBorder"
+		"border"		"BgNoBorder"
 		
 		"text_ypos"			"20"
 		"text_center"		"1"
@@ -159,6 +159,8 @@
 			"fgcolor"		"117 107 94 255"
 			"centerwrap"	"1"
 		}
+ 
+
 	}
 	
 	"Background"
@@ -167,7 +169,7 @@
 		"fieldName"		"Background"
 		"xpos"			"cs-0.5"
 		"ypos"			"0"
-		"zpos"			"-200"
+		"zpos"			"-999"
 		"wide"			"o1.6"
 		"tall"			"f0"
 		"visible"		"0"
@@ -218,7 +220,7 @@
 		}
 		if_christmas
 		{
-			"image"		"../console/background_xmas2011_widescreen"
+			"image"		"../console/background_xmas2020_widescreen"
 		}		
 	}
 					
@@ -233,7 +235,7 @@
 		"tall"			"64"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../logo/new_tf2_logo"
+		"image"			"../logo/tf2_logo_black"
 		"scaleImage"	"1"
 		"mouseinputenabled"	"0"
 	}	
@@ -410,9 +412,8 @@
 		"wide"			"260"
 		"tall"			"60"
 		"visible"		"1"
-		"PaintBackgroundType"	"2"
-		"border"		"MainMenuBGBorder"
-		"proportionaltoparent"	"1"
+			"paintborder"	"1"
+			"border"		"BgNoBorder"
 	}
 	
 	"TooltipPanel"
@@ -425,8 +426,8 @@
 		"wide"			"150"
 		"tall"			"50"
 		"visible"		"0"
-		"PaintBackgroundType"	"2"
-		"border"		"MainMenuBGBorder"
+			"paintborder"	"1"
+			"border"		"BgNoBorder"
 		
 		"TipSubLabel"
 		{
@@ -1290,8 +1291,8 @@
 		"wide"			"260"
 		"tall"			"38"
 		"visible"		"1"
-		"PaintBackgroundType"	"2"
-		"border"		"MainMenuBGBorder"
+			"paintborder"	"1"
+			"border"		"BgNoBorder"
 	}
 
 	"VRModeButton"
@@ -1382,8 +1383,8 @@
 		"wide"			"260"
 		"tall"			"150"
 		"visible"		"1"
-
-		"border"		"MainMenuBGBorder"
+			"paintborder"	"1"
+			"border"		"BgNoBorder"
 
 		"TitleLabel"
 		{
@@ -1406,7 +1407,7 @@
 
 		"InnerShadow"
 		{
-			"ControlName"	"EditablePanel"
+			"ControlName"	"ImagePanel"
 			"fieldname"		"InnerShadow"
 			"xpos"			"cs-0.5"
 			"ypos"			"rs1-10"
@@ -1417,8 +1418,7 @@
 			"PaintBackgroundType"	"0"
 			"proportionaltoparent"	"1"
 			"mouseinputenabled"	"0"
-
-			"paintborder"	"1"
+                        			"paintborder"	"1"
 			"border"		"InnerShadowBorder"
 		}
 
@@ -1521,10 +1521,8 @@
 			"tall"			"96"
 			"visible"		"1"
 			"PaintBackgroundType"	"0"
-			"proportionaltoparent"	"1"
-
 			"paintborder"	"1"
-			"border"		"MainMenuBGBorder"
+			"border"		"BgNoBorder"
 
 			"TitleLabel"
 			{
@@ -1707,62 +1705,102 @@
 				{
 					"0"
 					{
-						"item"		"Halloween 2020 Key" 
+						"item"		"Winter 2020 Cosmetic Key" 
 						"show_market"	"0"
 					}
 					"1"
 					{
-						"item"		"Halloween 2020 Case"
+						"item"		"Winter 2020 Cosmetic Case"
 						"show_market"	"1"
 					}
 					"2"
 					{
-						"item"		"Scream Fortress 2020 War Paint Key"
+						"item"		"Winter 2020 War Paint Key"
 						"show_market"	"0"
 					}
 					"3"
 					{
-						"item"		"Scream Fortress 2020 War Paint Case"
+						"item"		"Winter 2020 War Paint Case"
 						"show_market"	"1"
 					}
 					"4"
 					{
-						"item"		"Map Token Megalo"
+						"item"		"Taunt: The Pooped Deck"
 						"show_market"	"0"
 					}
 					"5"
 					{
-						"item"		"Strange Filter: Megalo (Community)"
+						"item"		"Taunt: Time Out Therapy"
 						"show_market"	"0"
-					}					
+					}
 					"6"
 					{
-						"item"		"Map Token Hassle Castle"
+						"item"		"Taunt: Rocket Jockey"
 						"show_market"	"0"
 					}
 					"7"
 					{
-						"item"		"Strange Filter: Hassle Castle (Community)"
+						"item"		"Taunt: The Boston Boarder"
 						"show_market"	"0"
 					}
 					"8"
 					{
-						"item"		"Map Token Bloodwater"
+						"item"		"Taunt: Scorcher's Solo"
 						"show_market"	"0"
 					}
 					"9"
 					{
-						"item"		"Strange Filter: Bloodwater (Community)"
+						"item"		"Taunt: Texas Truckin"
 						"show_market"	"0"
 					}
 					"10"
 					{
-						"item"		"Map Token Undergrove Event"
+						"item"		"Taunt: Spin-to-Win"
 						"show_market"	"0"
 					}
 					"11"
 					{
-						"item"		"Strange Filter: Undergrove Event (Community)"
+						"item"		"Taunt: The Fist Bump"
+						"show_market"	"0"
+					}
+					"12"
+					{
+						"item"		"Map Token Pier"
+						"show_market"	"0"
+					}
+					"13"
+					{
+						"item"		"Strange Filter: Pier (Community)"
+						"show_market"	"0"
+					}					
+					"14"
+					{
+						"item"		"Map Token SnowVille"
+						"show_market"	"0"
+					}
+					"15"
+					{
+						"item"		"Strange Filter: SnowVille (Community)"
+						"show_market"	"0"
+					}
+					"16"
+					{
+						"item"		"Map Token Snowfall"
+						"show_market"	"0"
+					}
+					"17"
+					{
+						"item"		"Strange Filter: Snowfall (Community)"
+						"show_market"	"0"
+					}
+					"18"
+					{
+						"item"		"Map Token Wutville"
+						"show_market"	"0"
+					}
+					"19"
+					{
+						"item"		"Strange Filter: Wutville (Community)"
 						"show_market"	"0"
 					}
 				}
@@ -1795,9 +1833,8 @@
 			"visible"		"1"
 			"PaintBackgroundType"	"0"
 			"proportionaltoparent"	"1"
-
 			"paintborder"	"1"
-			"border"		"MainMenuBGBorder"
+			"border"		"BgNoBorder"
 
 			"TitleLabel"
 			{
@@ -1967,7 +2004,6 @@
 	}
 
 	// command comes from GameMenu.res
-
 	"ReportPlayerButton"
 	{
 		"ControlName"	"EditablePanel"
@@ -2149,7 +2185,6 @@
 			"defaultFgColor_override" "46 43 42 255"
 			"armedFgColor_override" "46 43 42 255"
 			"depressedFgColor_override" "46 43 42 255"
-			
 			"image_drawcolor"	"235 226 202 255"
 			"image_armedcolor"	"235 226 202 255"
 			"proportionaltoparent"	"1"
@@ -2216,6 +2251,7 @@
 			
 			"defaultFgColor_override" "46 43 42 255"
 			"armedFgColor_override" "46 43 42 255"
+
 			"depressedFgColor_override" "46 43 42 255"
 			
 			"image_drawcolor"	"235 226 202 255"
@@ -2244,7 +2280,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"BackgroundFooter"
-		"xpos"			"0"
+		"xpos"			"-240"
 		"ypos"			"420"
 		"zpos"			"-50"
 		"wide"			"f0"
@@ -2252,13 +2288,28 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"loadout_bottom_gradient"
-		"tileImage"		"1"
-	}				
+	}
+
+         
+        "FooterBackground"
+        {
+                "ControlName"    "ImagePanel"
+                "fieldName"             "FooterBackground"
+                "xpos"                  "0"
+                "ypos"                  "420"
+                "zpos"                  "-6"
+                "wide"                  "f0"
+                "tall"                  "60"
+                "visible"               "1"
+                "enabled"               "1"
+                "fillcolor"             "0 0 0 220"
+        }
+			
 	"FooterLine"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"FooterLine"
-		"xpos"			"0"
+		"xpos"			"-f0"
 		"ypos"			"420"
 		"zpos"			"-5-"
 		"wide"			"f0"
@@ -2294,6 +2345,7 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"proportionaltoparent"	"1"
+
 			
 		"paintbackground"	"1"
 				
@@ -2354,6 +2406,7 @@
 		"command" "engine open_store"
 		"proportionaltoparent"	"1"
 
+
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 			
@@ -2397,10 +2450,11 @@
 		"brighttext"	"0"
 		"default"		"1"
 		"command"		"OpenOptionsDialog"
-		"labeltext"		"options"
+		"labeltext"		"OPTIONS"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"proportionaltoparent"	"1"
+
 			
 		"paintbackground"	"1"
 				
@@ -2452,6 +2506,7 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 		
 		"image_drawcolor"	"235 226 202 255"
+
 		"SubImage"
 		{
 			"ControlName"	"ImagePanel"
@@ -2468,7 +2523,7 @@
 			"scaleImage"	"1"
 		}				
 	}
-	
+
 	"NewUserForumsButton"
 	{
 		"ControlName"	"CExImageButton"
@@ -2501,6 +2556,7 @@
 		"border_default"	"MainMenuSubButtonBorder"
 		
 		"image_drawcolor"	"235 226 202 255"
+
 		"SubImage"
 		{
 			"ControlName"	"ImagePanel"
@@ -2548,6 +2604,7 @@
 		"border_default"	"MainMenuSubButtonBorder"
 		
 		"image_drawcolor"	"235 226 202 255"
+
 		"SubImage"
 		{
 			"ControlName"	"ImagePanel"
@@ -2595,6 +2652,7 @@
 		"border_default"	"MainMenuSubButtonBorder"
 		
 		"image_drawcolor"	"235 226 202 255"
+
 		"SubImage"
 		{
 			"ControlName"	"ImagePanel"
@@ -2642,6 +2700,7 @@
 		"border_default"	"MainMenuSubButtonBorder"
 		
 		"image_drawcolor"	"235 226 202 255"
+
 		"SubImage"
 		{
 			"ControlName"	"ImagePanel"
@@ -2689,6 +2748,7 @@
 		"border_default"	"MainMenuSubButtonBorder"
 		
 		"image_drawcolor"	"235 226 202 255"
+
 		"SubImage"
 		{
 			"ControlName"	"ImagePanel"
@@ -2736,6 +2796,7 @@
 		"border_default"	"MainMenuSubButtonBorder"
 		
 		"image_drawcolor"	"235 226 202 255"
+
 		"SubImage"
 		{
 			"ControlName"	"ImagePanel"
@@ -2782,6 +2843,7 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 		
 		"image_drawcolor"	"235 226 202 255"
+
 		"SubImage"
 		{
 			"ControlName"	"ImagePanel"
@@ -2826,6 +2888,7 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 		
 		"image_drawcolor"	"235 226 202 255"
+
 		"SubImage"
 		{
 			"ControlName"	"ImagePanel"
